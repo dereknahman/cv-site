@@ -1,0 +1,38 @@
+* {
+    background-color: whitesmoke;
+}
+
+body {
+    margin-top: 5%;
+}
+
+h1, h3, h4 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+    text-decoration: underline;
+    color: #14c41e;
+}
+
+.header, .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.blink-me {
+    animation: blinker 1.5s linear infinite;
+    color: #14c41e;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
